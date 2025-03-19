@@ -10,11 +10,13 @@ website:
         text: Home
       - about.qmd
 
+  margin-header: |
+    ![](./naa-uk-academics-logo.png)
+
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - pulse
     css: styles.css
     toc: true
 
